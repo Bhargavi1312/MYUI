@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Layout */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+  footer {
+    background-color: #6200ea;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  /* Google Search Section */
+  .search-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .search-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .search-box {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-btn {
+    padding: 10px 15px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-btn:hover {
+    background-color: #4500b5;
+  }
+  
+  /* Apps Section */
+  .apps-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apps-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .app-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .app-icon {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .app-icon img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .app-icon:hover img {
+    transform: scale(1.1);
+  }
+  
+  .app-icon span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
